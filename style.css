@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(27, 25, 25);
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gap {
+    gap: 0.9rem;
+}
+
+.mb {
+    margin-bottom: 2rem;
+}
+
+.mb-large {
+    margin-bottom: 3rem;
+}
+
+.calculator-container {
+    width: 350px;
+    margin: 150px auto 0;
+    padding: 50px 25px 30px;
+    background: rgba(165, 164, 164, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(238, 232, 232, 0.28);
+}
+
+#num-output {
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    text-align: right;
+    outline: none;
+    padding-right: 10px;
+    box-shadow: inset 2px 5px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: darkgray;
+}
+
+
+.btn, .clear, .equal {
+    padding: 15px 22px;
+    font-size: 20px;
+    color: rgb(65, 228, 25);
+    background-color: rgb(104, 102, 102);
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.btn:hover, .clear:hover, .equal:hover {
+    background-color: hsla(0, 0%, 10%, 0.1);
+}
+
